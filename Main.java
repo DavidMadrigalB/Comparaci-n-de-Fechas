@@ -1,8 +1,10 @@
 public class Main {
     public static void main (String[] args) {
         try {
-            System.out.println(Fecha.getFechaActualString());
-            System.out.println(Fecha.getFechaActualString("dd/MM/yyyy"));
+            Fecha.asd("16/09/2002");
+            //System.out.println();
+            //System.out.println(Fecha.restarAlAnio(18).toString());
+            //System.out.println(Comparacion_Basica.getFechaActualString("dd/MM/yyyy"));
         }catch(Exception e) {
             e.printStackTrace();
         }
